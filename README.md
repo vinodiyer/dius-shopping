@@ -1,5 +1,14 @@
 # DiUS Shopping
 
+## Notes from developer
+
+- Developer contact: vinod.padmanabhan@gmail.com
+- Notes:
+  - `ScenarioTests` class contains the three example scenarios listed in the coding test.
+  - Current code restricts to only one discount per sku
+  - If you want to apply a new rule for a sku, create a new rule that implements `PricingRule` and set discounts, associated items, etc in the new rule, and then add it to the `Dictionary` in the `PricingRules` class.
+
+## Requirements shared with the developer
 DiUS is starting a computer store. You have been engaged to build the checkout system. We will start with the following products in our catalogue.
 
 | SKU     | Name        | Price    |
